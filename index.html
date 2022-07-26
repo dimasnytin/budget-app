@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Приложение Бюджет</title>
+  <title>Приход - расход средств</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
 </head>
 <body>
@@ -42,17 +43,17 @@
       <!-- выход данных-->
       <div class="output-container flex-space">
         <div>
-          <p>Total Budget</p>
+          <p>Бюджет</p>
           <span id="amount">0</span>
         </div>
 
         <div>
-          <p>Expenses</p>
+          <p>Затраты</p>
           <span id="expenditure-value">0</span>
         </div>
 
         <div>
-          <p>Balance</p>
+          <p>Остаток</p>
           <span id="balance-amount">0</span>
         </div>
       </div>
@@ -60,19 +61,13 @@
 
     <!-- лист -->
     <div class="list">
-      <h3>Expense List</h3>
+      <h3>Список расходов</h3>
       <div class="list-container" id="list"></div>
     </div>
   </div>
   
 
-<!-- https://youtu.be/rxRHuk0f3gE?t=1242 -->
 
-
-
-
-
-
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
